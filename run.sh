@@ -6,6 +6,7 @@ sudo chown -R $USER ~/.ssh
 brew doctor
 
 git config --global color.ui true
+git config --global push.default simple
 
 #oh-my-zsh
 brew install zsh zsh-completions
